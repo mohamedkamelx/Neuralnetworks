@@ -14,7 +14,7 @@
 
 ```
 
-![alt text](tikz0-1.png)
+![alt text](tikz0.png)
 
 ### 2. Sigmoid Neuron
 - Sigmoid neurons are a perceptrons. but instead of just 0's and 1's its the range of numbers between them.
@@ -23,7 +23,7 @@
     ```math
     \Delta \text{output} \approx \sum_j \frac{\partial \text{output}}{\partial w_j} \Delta w_j + \frac{\partial \text{output}}{\partial b} \Delta b
     ```
-    ![alt text](tikz8-1.png)
+    ![alt text](tikz8.png)
     
 
 - Sigmoid neurons are useful for more complex functions.
@@ -54,7 +54,7 @@ C(w, b) \equiv \frac{1}{2n} \left( \sum_x \| y(x) - a \|^2 \right)
 ```
 - The error is reduced iteratively by calculating the gradient of the cost function to find the minimum point which represent minimum error and moving in the direction of steepest descent.
     - here is a example for how it looks for 3dimensional cost function that has 2 ionputs
-    ![alt text](Capture3-1.PNG)
+    ![alt text](Capture3.PNG)
 
 ```math 
         \nabla C \equiv \left( \frac{\partial C}{\partial v_1}, \frac{\partial C}{\partial v_2} \right)^T
